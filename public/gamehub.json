@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "title": "Free Fire",
+    "coverPhoto": "https://i.ibb.co.com/fVh3M7bc/free-fire-banner.jpg",
+    "category": "Battle Royale",
+    "downloadLink": "https://ff.garena.com/",
+    "description": "Free Fire offers quick and thrilling survival matches with intense gunfights and teamwork.",
+    "ratings": "4.9",
+    "developer": "Garena"
+  },
+  {
+    "id": "2",
+    "title": "PUBG",
+    "coverPhoto": "https://i.ibb.co.com/v6hdPy5L/pubg-banner.jpg",
+    "category": "FPS",
+    "downloadLink": "https://www.pubgmobile.com/en-US/home.shtml",
+    "description": "PUBG Mobile is a fast-paced battle royale game where players fight for survival, strategy, and victory on dynamic maps.",
+    "ratings": "4.8",
+    "developer": "Krafton"
+  },
+  {
+    "id": "3",
+    "title": "Call of Duty: Mobile",
+    "coverPhoto": "https://i.ibb.co.com/hN55ntF/callofduty-banner.jpg",
+    "category": "Action",
+    "downloadLink": "https://www.callofduty.com/mobile",
+    "description": "COD Mobile delivers console-quality shooting experience with multiple maps and modes.",
+    "ratings": "4.0",
+    "developer": "Activision"
+  },
+  {
+    "id": "4",
+    "title": "Asphalt 9: Legends",
+    "coverPhoto": "https://i.ibb.co.com/xScG2Gps/asphalt-9-legends-cover.jpg",
+    "category": "Racing",
+    "downloadLink": "https://www.gameloft.com/game/asphalt-9-legends",
+    "description": "Asphalt 9 is a next-gen racing experience with real cars, realistic physics, and stunning tracks.",
+    "ratings": "4.6",
+    "developer": "Gameloft"
+  },
+  {
+    "id": "5",
+    "title": "Clash of Clans",
+    "coverPhoto": "https://i.ibb.co.com/pBrTNjH3/clash-of-clans.jpg",
+    "category": "Strategy",
+    "downloadLink": "https://supercell.com/en/games/clashofclans/",
+    "description": "Build your base, join a clan, and battle millions of players worldwide in this strategy classic.",
+    "ratings": "4.4",
+    "developer": "Supercell"
+  },
+  {
+    "id": "6",
+    "title": "Among Us",
+    "coverPhoto": "https://i.ibb.co.com/cX6w8svw/among-us-cover.jpg",
+    "category": "Party",
+    "downloadLink": "https://innersloth.com/gameAmongUs.php",
+    "description": "Among Us is a multiplayer game of teamwork and betrayal set in outer space.",
+    "ratings": "4.2",
+    "developer": "Innersloth"
+  },
+  {
+    "id": "7",
+    "title": "Genshin Impact",
+    "coverPhoto": "https://i.ibb.co.com/Zzd236Wq/genshin-impact-cover.jpg",
+    "category": "Adventure",
+    "downloadLink": "https://genshin.hoyoverse.com/",
+    "description": "Embark on an epic adventure across the magical world of Teyvat filled with quests and mysteries.",
+    "ratings": "5.0",
+    "developer": "HoYoverse"
+  },
+  {
+    "id": "8",
+    "title": "Minecraft",
+    "coverPhoto": "https://i.ibb.co.com/5gpz0Wn5/minecraft-legends-cover.jpg",
+    "category": "Sandbox",
+    "downloadLink": "https://www.minecraft.net/en-us",
+    "description": "Create, explore, and survive in an infinite world of blocks and endless imagination.",
+    "ratings": "4.4",
+    "developer": "Mojang Studios"
+  },
+  {
+    "id": "9",
+    "title": "Valorant",
+    "coverPhoto": "https://i.ibb.co.com/LXNqJBrX/valorant-cover.jpg",
+    "category": "FPS",
+    "downloadLink": "https://playvalorant.com/",
+    "description": "A 5v5 tactical shooter that blends sharp gunplay with hero-style abilities.",
+    "ratings": "4.7",
+    "developer": "Riot Games"
+  },
+  {
+    "id": "10",
+    "title": "League of Legends",
+    "coverPhoto": "https://i.ibb.co.com/9mFjKmpd/league-of-legends.jpg",
+    "category": "MOBA",
+    "downloadLink": "https://wildrift.leagueoflegends.com/",
+    "description": "Experience the classic MOBA action of League of Legends reimagined for mobile devices.",
+    "ratings": "4.5",
+    "developer": "Riot Games"
+  },
+  {
+    "id": "11",
+    "title": "Subway Surfers",
+    "coverPhoto": "https://i.ibb.co.com/b5pnQNf0/subway-surfers.jpg",
+    "category": "Arcade",
+    "downloadLink": "https://sybogames.com/subway-surfers/",
+    "description": "Dash through trains and collect coins in this endless runner adventure loved by millions.",
+    "ratings": "4.6",
+    "developer": "SYBO Games"
+  },
+  {
+    "id": "12",
+    "title": "BGMI",
+    "coverPhoto": "https://i.ibb.co.com/wZPpkKC9/bgmi.jpg",
+    "category": "Battle Royale",
+    "downloadLink": "https://www.battlegroundsmobileindia.com/",
+    "description": "The Indian version of PUBG Mobile, offering intense battle royale matches and local events.",
+    "ratings": "4.4",
+    "developer": "Krafton"
+  }
+]

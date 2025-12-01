@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Fardin Rahman Sojon",
+    "role": "Frontend Developer",
+    "img": "https://i.ibb.co.com/Dxr4tHj/fardin.jpg",
+    "bio": "Passionate about creating interactive and responsive web applications using React and Tailwind CSS.",
+    "github": "https://github.com/fardin-sojon",
+    "linkedin": "https://www.linkedin.com/in/fardin-sojon/",
+    "facebook": "https://www.facebook.com/fardinsojon"
+  },
+  {
+    "name": "Refat Al Hasan",
+    "role": "Backend Developer",
+    "img": "https://i.ibb.co.com/35cjGSK2/rifat-2.jpg",
+    "bio": "Focused on building efficient backend APIs and integrating Firebase and Node.js for modern web apps.",
+    "github": "https://github.com/thegetosuguru",
+    "linkedin": "https://www.linkedin.com/in/refatalhasank/",
+    "facebook": "https://www.facebook.com/mohammadrefatalhasankaif"
+  },
+  {
+    "name": "Rifat Hasan",
+    "role": "UI/UX Designer",
+    "img": "https://i.ibb.co.com/G4s41tQL/rifat.jpg",
+    "bio": "Designs intuitive, user-friendly interfaces and ensures seamless, engaging, visually appealing experiences for all users.",
+    "github": "https://github.com/stackdaemon",
+    "linkedin": "https://www.linkedin.com/in/mdrifathasan-dev/",
+    "facebook": "https://www.facebook.com/md.shorip.79025648"
+  }
+]
