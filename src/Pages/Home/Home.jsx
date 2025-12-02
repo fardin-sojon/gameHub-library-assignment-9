@@ -5,6 +5,7 @@ import NewsLetter from "../../Components/NewsLetter";
 import { motion } from "framer-motion";
 import UserTitle from "../../Hook/UserTitle";
 import Gallery from "./Gallery";
+import Features from "./Features";
 
 const containerVariants = {
   hidden: {},
@@ -16,6 +17,11 @@ const containerVariants = {
 const cardVariants = {
   hidden: { opacity: 0, y: 30 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+};
+
+const fadeUpVariants = {
+  hidden: { opacity: 0, y: 30 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.8 } },
 };
 
 const Home = () => {
@@ -43,7 +49,27 @@ const Home = () => {
           <PopularGame cardVariants={cardVariants} />
         </motion.div>
 
-        <Gallery/>
+        {/* Gallery Section */}
+        <motion.div
+          variants={fadeUpVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          className="mb-10"
+        >
+          <Gallery />
+        </motion.div>
+
+        {/* Features Section */}
+        <motion.div
+          variants={fadeUpVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          className="mb-10"
+        >
+          <Features />
+        </motion.div>
 
         {/* Newsletter Section */}
         <motion.div

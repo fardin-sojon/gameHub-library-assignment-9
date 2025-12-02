@@ -17,15 +17,15 @@ const NewsLetter = () => {
       toast.error("Please enter your email!");
       return;
     }
-    toast(`Thanks ${email}.. You’re now part of our newsletter community 🎉`);
+    toast.success(`Thanks ${email}.. You’re now part of our newsletter community 🎉`);
     // console.log(email);
   };
 
   return (
     <div>
-      <div className="bg-white md:w-[50%] mx-auto p-6 rounded-lg shadow-md mb-10">
-        <h2 className="text-2xl font-bold mb-3">Subscribe to our Newsletter</h2>
-        <p className="text-gray-600 mb-4">
+      <div className="bg-white md:w-[50%] mx-auto p-6 rounded-lg shadow-md m-10">
+        <h2 className="text-2xl text-center font-bold mb-3">Subscribe to our Newsletter</h2>
+        <p className="text-gray-600 mb-4 text-center">
           Get the latest games and updates directly to your inbox!
         </p>
         <form onSubmit={newsLetter} className="flex flex-col sm:flex-row gap-3">
