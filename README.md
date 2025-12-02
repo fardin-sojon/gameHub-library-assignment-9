@@ -1,7 +1,7 @@
 # 🎮 Gamehub — A Game Library
 
 ### 
-🔗 [🌐 Live Link](https://gamehub-library-assignment-9.netlify.app/)
+🔗 [🌐 Live Link](https://gamehub-assignment-9-update-task.netlify.app/)
 
 ### 🧠 Purpose
 Gamehub is an engaging online library designed for discovering and supporting game developers.  
@@ -46,7 +46,7 @@ The website ensures a smooth and secure user experience through Firebase authent
 - Routing handled properly to prevent 404 on reload
  
 **Developed by:** _Fardin Rahman Sojon_ 💻 <br>
-📁 [GitHub Repository](https://github.com/fardin-sojon/gamehub-library-assignment-9)
+📁 [GitHub Repository](https://github.com/fardin-sojon/gameHub-library-assignment-9.git)
 
 # Let's Code and Achieve your Dream 🎯
 
