@@ -54,9 +54,14 @@ export const router = createBrowserRouter([
       },
       {
         path: "about-us",
-        loader: () => fetch("team.json"),
+        loader: async () => {
+          const res = await fetch("/team.json");
+          const data = await res.json();
+          return data; 
+        },
         Component: AboutUs,
       },
+
       {
         path: "/forget-password",
         Component: ForgetPassword,

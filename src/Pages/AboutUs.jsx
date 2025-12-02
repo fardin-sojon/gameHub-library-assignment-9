@@ -20,6 +20,7 @@ const AboutUs = () => {
   UserTitle(`About Us || Gamehub`);
   const team = useLoaderData();
 
+
   return (
     <div className="bg-gray-50 py-16 px-6 md:px-12 pt-32 min-h-screen">
       {/* Section Title */}

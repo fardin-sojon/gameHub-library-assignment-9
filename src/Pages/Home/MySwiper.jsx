@@ -11,7 +11,7 @@ import callofdutyImg from "../../assets/callofduty-banner.jpg"
 const MySwiper = () => {
   return (
 
-    <div className="mt-20">
+    <div className="mt-20 md:w-7xl mx-auto">
      <Swiper
       modules={[Autoplay, Pagination, Navigation]}
       spaceBetween={30}
