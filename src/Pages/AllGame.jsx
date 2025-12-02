@@ -19,34 +19,38 @@ const AllGame = () => {
   UserTitle(`All Game || Gamehub`);
 
   const allGames = useLoaderData();
-  const [sortOption, setSortOption] = useState("rating-asc");
+  const [sortOption, setSortOption] = useState(""); 
 
-  const sortedGames = [...allGames].sort((a, b) => {
-    switch (sortOption) {
-      case "rating-asc":
-        return parseFloat(a.ratings) - parseFloat(b.ratings);
-      case "rating-desc":
-        return parseFloat(b.ratings) - parseFloat(a.ratings);
-      case "title-asc":
-        return a.title.localeCompare(b.title);
-      case "title-desc":
-        return b.title.localeCompare(a.title);
-      default:
-        return 0;
-    }
-  });
+  const sortedGames = sortOption
+    ? [...allGames].sort((a, b) => {
+        switch (sortOption) {
+          case "rating-asc":
+            return parseFloat(a.ratings) - parseFloat(b.ratings);
+          case "rating-desc":
+            return parseFloat(b.ratings) - parseFloat(a.ratings);
+          case "title-asc":
+            return a.title.localeCompare(b.title);
+          case "title-desc":
+            return b.title.localeCompare(a.title);
+          default:
+            return 0;
+        }
+      })
+    : allGames; 
 
   return (
     <div className="py-10 bg-gray-100 pt-24 px-3 min-h-screen">
       <div className="container mx-auto">
         <h2 className="text-2xl text-center font-bold mb-5">All Games</h2>
 
+        {/* Sort  */}
         <div className="flex justify-end mb-6 gap-4">
           <select
             value={sortOption}
             onChange={(e) => setSortOption(e.target.value)}
             className="px-4 py-2 rounded-lg border"
           >
+            <option value="">-- Select Sort --</option>
             <option value="rating-asc">Rating: Low → High</option>
             <option value="rating-desc">Rating: High → Low</option>
             <option value="title-asc">Title: A → Z</option>
