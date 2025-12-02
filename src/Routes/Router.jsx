@@ -41,7 +41,7 @@ export const router = createBrowserRouter([
       {
         path: "/all-game",
         Component: AllGame,
-        loader: () => fetch("/gamehub.json"),
+        loader: () => fetch("/gamehub.json").then(res => res.json()),
       },
       {
         path: "game-details/:id",
