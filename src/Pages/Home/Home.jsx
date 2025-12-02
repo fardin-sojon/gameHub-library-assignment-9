@@ -4,6 +4,7 @@ import PopularGame from "../../Components/PopularGame";
 import NewsLetter from "../../Components/NewsLetter";
 import { motion } from "framer-motion";
 import UserTitle from "../../Hook/UserTitle";
+import Gallery from "./Gallery";
 
 const containerVariants = {
   hidden: {},
@@ -41,6 +42,8 @@ const Home = () => {
         >
           <PopularGame cardVariants={cardVariants} />
         </motion.div>
+
+        <Gallery/>
 
         {/* Newsletter Section */}
         <motion.div
